@@ -3,7 +3,8 @@ import {Container} from "@chakra-ui/react";
 type reminder = {
     name: string
     notes: string | null
-    status: string
+    status: strin
+    id: number
 }
 
 type reminders = Array<reminder>

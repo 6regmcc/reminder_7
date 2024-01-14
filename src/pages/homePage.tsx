@@ -20,6 +20,8 @@ export default function HomePage () {
         return <span>Error: {error.message}</span>
     }
 
+
+
     console.log(data)
     return (
         <Reminders reminders={data}/>
